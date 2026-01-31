@@ -19,5 +19,12 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 
 ---
 
+## 🔧 Herramientas
+- Python
+- Visual Studio Code
+- GitHub
+
+---
+
 ## 👤 Autor
 Asp. Ingeniero en Sistemas - Enrique Jara Escobar
