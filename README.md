@@ -14,5 +14,10 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 
 ---
 
+## Actualizaciones
+- ... 
+
+---
+
 ## 👤 Autor
 Asp. Ingeniero en Sistemas - Enrique Jara Escobar
