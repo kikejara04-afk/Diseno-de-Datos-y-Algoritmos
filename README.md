@@ -14,7 +14,7 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 
 ---
 
-## Actualizaciones
+## ⚡ Actualizaciones
 - ... 
 
 ---
