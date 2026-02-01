@@ -1,0 +1,60 @@
+def obtener_datos_estudiantes():
+    '''Solicita la entrada única y convierte el texto en una lista procesable.'''
+    entrada = input("Ingresa los nombres y notas (Formato: Nombre Nota, Nombre Nota...): ")
+    # Separamos por comas para obtener cada par estudiante-nota
+    lista = entrada.split( )
+    datos = []
+    
+    for item in lista:
+        # Limpiamos espacios y separamos nombre de la nota
+        partes = item.strip().split()
+        if len(partes) == 2:
+            nombre = partes[0]
+            nota = float(partes[1])
+            datos.append([nombre, nota])
+            # Se utiliza el .append para poder  guardar la informacion recibida en las diferentes listas y empezar a organizar todos los datos
+    return datos
+
+def clasificar_estudiantes(lista_datos, nota_minima=3):
+    '''
+    Filtra a los estudiantes en listas de aprobados y reprobados.
+    '''
+    aprobados = []
+    reprobados = []
+    
+    for estudiante in lista_datos:
+        nombre = estudiante[0]
+        nota = estudiante[1]
+        
+        if nota >= nota_minima:
+            aprobados.append(nombre)
+        else:
+            reprobados.append(nombre)
+            
+    return aprobados, reprobados
+
+def mostrar_resultados(aprobados, reprobados):
+    '''
+    Imprime el reporte final con los estudiantes que pasaron la materia.
+    '''
+    if aprobados:
+        print(f" Estudiantes que pasaron la materia: {', '.join(aprobados)}")
+    else:
+        print(" Ningún estudiante aprobó la materia.")
+        
+    print(f"Total de aprobados: {len(aprobados)} estos fueron {aprobados}")
+    print(f"Total de reprobados: {len(reprobados)}")
+
+def main():
+    '''
+    Función principal que invoca el flujo del programa.
+    '''
+    # Se obtiene la información que nos proporciona el usuario de los estudiantes
+    datos = obtener_datos_estudiantes()
+    
+    # Se procesa y clasifica la información recibida para dar estructura y organizar los datos
+    estudiantes_si, estudiantes_no = clasificar_estudiantes(datos)
+    
+    # Da el resultado final de toda la operación del programa
+    mostrar_resultados(estudiantes_si, estudiantes_no)
+main()
