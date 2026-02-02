@@ -15,6 +15,8 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 ---
 
 ## ⚡ Actualizaciones
+- Se personalizo el README, al igual que se creo la carpeta de "Semana 1" donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
+mejorar el visual del README a medida de las actualizaciones para manejar un mejor diseño de tal y se invito de colaborador al instructor al repositorio.
 - ... 
 
 ---
@@ -22,7 +24,7 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 ## 🔧 Herramientas
 - Python
 - Visual Studio Code
-- GitHub
+- GitHub y Git
 
 ---
 
