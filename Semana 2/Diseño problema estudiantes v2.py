@@ -76,6 +76,11 @@ main(): Llamadas secuenciales, no añade complejidad adicional.
 Mejor caso: Cuando n = 0 (sin estudiantes), todas las operaciones son O(1), ya que no hay bucles o procesamiento de listas.
 Peor caso: Cuando n es grande (ej. miles de estudiantes), la complejidad es O(n), dominada por los bucles de clasificación e impresión. No hay dependencias cuadráticas o peores; el código es eficiente para entradas típicas.
 
+Analisis propio: puedo confirmar que el código maneja eficientemente los datos de n estudiantes en O(n), con el parsing inicial dominando a través del split en O(m) ≈ O(n), 
+seguido de bucles simples para clasificar e imprimir sin complicaciones extras; en el mejor caso, con n=0, todo se resuelve en O(1), y en el peor, con miles de entradas, 
+se mantiene escalable y robusto, lo que me convence de que no requiere mejoras adicionales para usos prácticos
+
 PD: Grafica de mejor/peor caso en un documento aparte llamado "Grafica_Analisis_Complejidad"
 
 '''
+
