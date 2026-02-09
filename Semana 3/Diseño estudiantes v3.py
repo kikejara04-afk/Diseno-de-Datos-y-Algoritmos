@@ -92,3 +92,78 @@ def main():
 
 # Ejecutar el programa - Inicia la ejecución del algoritmo de divide y conquista
 main()
+
+'''
+ANÁLISIS
+DESCRIPCIÓN DEL PROBLEMA:
+Desarrollar un sistema de clasificación de estudiantes que reciba como entrada una
+cantidad de estudiantes seguidos de pares nombre-nota, y que procese estos datos 
+utilizando el enfoque algorítmico de "Dividir y Conquistar" para clasificarlos 
+en dos categorías: aprobados (nota >= 3) y reprobados (nota < 3).
+El programa debe mantener la estructura modular con funciones especializadas y 
+presentar los resultados de manera clara y organizada.
+
+
+REQUERIMIENTOS (HISTORIAS DE USUARIO):
+
+1. HISTORIA DE USUARIO: Ingreso de datos
+   Como usuario, quiero ingresar la cantidad de estudiantes y sus calificaciones
+   en una sola línea de entrada para ahorrar tiempo.
+   Criterios de aceptación:
+   - El programa debe recibir un número N seguido de N pares nombre-nota
+   - Los datos deben estar separados por espacios
+   - El programa debe validar que la cantidad de datos sea correcta
+
+2. HISTORIA DE USUARIO: Clasificación de estudiantes
+   Como sistema, necesito clasificar estudiantes en aprobados y reprobados
+   utilizando un algoritmo eficiente de divide y conquista.
+   Criterios de aceptación:
+   - Un estudiante es aprobado si su nota es >= 3
+   - Un estudiante es reprobado si su nota es < 3
+   - El proceso debe usar recursión y división en mitades
+
+3. HISTORIA DE USUARIO: Presentación de resultados
+   Como usuario, quiero ver claramente los tres grupos de estudiantes
+   (total, aprobados, reprobados) de forma organizada.
+   Criterios de aceptación:
+   - Mostrar encabezados descriptivos
+   - Listar los estudiantes con su nombre y nota
+   - Cada grupo debe estar claramente separado
+
+
+ANÁLISIS DE COMPLEJIDAD:
+
+Complejidad de tiempo:
+- Función obtener_datos(): O(n) donde n es la cantidad total de elementos en la entrada
+  Razón: split() recorre toda la cadena, int() es O(1)
+
+- Función clasificar_estudiantes():
+  * Construcción de lista_estudiantes: O(n) donde n es la cantidad de estudiantes
+  * Función dividir_conquistar (algoritmo recursivo):
+    - En cada nivel de recursión: Se divide el problema en 2 mitades
+    - Niveles de recursión: log₂(n)
+    - Trabajo en cada nivel: O(n) (por las operaciones de slicing y concatenación)
+    - Complejidad total: O(n log n)
+    - En el caso base: O(1) para listas vacías/unitarias
+
+- Función mostrar_resultados(): O(n) donde n es la cantidad total de estudiantes
+  Razón: Itera sobre todas los estudiantes para imprimirlos
+
+- Complejidad temporal TOTAL del programa: O(n log n)
+  Justificación: La operación dominante es el algoritmo de divide y conquista
+  que se ejecuta en O(n log n)
+
+
+ANÁLISIS PROPIO:
+
+Ventajas del enfoque Divide y Conquista:
+El enfoque de divide y conquista ofrece ventajas clave en este proyecto: escalabilidad 
+superior con complejidad O(n log n), que supera a O(n²) en grandes volúmenes de datos; 
+modularidad impecable al encapsular la lógica en la función recursiva dividir_conquistar(), 
+separándola de entradas y salidas; claridad conceptual absoluta, ya que este patrón 
+algorítmico es estándar y comprensible para cualquier programador; y recursión eficiente con 
+profundidad O(log n), que evita desbordamientos en listas extensas. Aunque didácticamente 
+poderoso para ilustrar la estrategia en Python con funciones anidadas, no es la opción óptima aquí, 
+pues una iteración lineal simple alcanza O(n) sin la carga recursiva; sin embargo, 
+este ejercicio impone su valor educativo al demostrar con autoridad cómo aplicar divide y conquista de manera efectiva.
+'''
