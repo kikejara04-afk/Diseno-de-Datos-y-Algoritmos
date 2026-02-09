@@ -15,7 +15,7 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 ---
 
 ## ⚡ Actualizaciones
-- 1. Se personalizo el README, al igual que se creo la carpeta de "Semana 1" donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
+- 1) Se personalizo el README, al igual que se creo la carpeta de "Semana 1" donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
 mejorar el visual del README a medida de las actualizaciones para manejar un mejor diseño de tal y se invito de colaborador al instructor al repositorio.
 - 2. Se añadio la rama de semana_2, añadiendo asi la primera parte de la entrega completa de la semana con el diseño de problema de estudiantes, ejercicios de las diapositivas de clase, el diagrama de flujo y problema de estudiantes titulado Diseño problema estudiantes v2.
 - 3. Se creo la carpeta para empezar con las respectivas actividades de la semana planteadas en clase e incorporando el diseño de dividir y conquistar en el diseño de problema de estudiantes propuesto y se planteo como empezar a esquematizar el diagrama de flujo respecto al algoritmo de los estudiantes.
