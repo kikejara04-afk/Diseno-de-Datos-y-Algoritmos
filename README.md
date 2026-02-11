@@ -1,8 +1,8 @@
-![image alt](https://github.com/kikejara04-afk/Kike/blob/9633feb600a663a163a6994731b6544af72169e5/Profile%20Banner.jpg)
+<img width="1536" height="1024" alt="image" src="https://github.com/kikejara04-afk/Kike/blob/9633feb600a663a163a6994731b6544af72169e5/Profile%20Banner.jpg" />
 
-# 📌 Trabajos y Proyectos
+# 📌 Diseño de Datos y Algoritmos
 
-Dedicado a los trabajos a detaller y aprendizaje de GitHub, programación y demas...
+Repositorio dedicado a los trabajos de **DDYA (Diseño de Datos y Algoritmos)** y aprendizaje de GitHub, programación y demas...
 
 ---
 
@@ -15,12 +15,39 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 ---
 
 ## ⚡ Actualizaciones
-- 1 Se personalizo el README, al igual que se creo la carpeta de "Semana 1" donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
+- 1. Se personalizo el README, al igual que se creo la carpeta de "Semana 1" donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
 mejorar el visual del README a medida de las actualizaciones para manejar un mejor diseño de tal y se invito de colaborador al instructor al repositorio.
-- 2 Se añadio la rama de semana_2, añadiendo asi la primera parte de la entrega completa de la semana con el diseño de problema de estudiantes, ejercicios de las diapositivas de clase, el diagrama de flujo y problema de estudiantes titulado Diseño problema estudiantes v2.
-- 3 Se creo la carpeta para empezar con las respectivas actividades de la semana planteadas en clase e incorporando el diseño de dividir y conquistar en el diseño de problema de estudiantes propuesto y se planteo como empezar a esquematizar el diagrama de flujo respecto al algoritmo de los estudiantes.
-- 3.1 Se añadio el archivo de "Ejercicio 1 diapositiva.py" hecho en clase y se realizo el analisis del diseño de estudiantes dejando para nuevas actualizaciones los dejas ejercicios y pendiente la tabla costo tiempo del algoritmo de diseño de estudiantes v3.
+- 2. Se añadio la rama de semana_2, añadiendo asi la primera parte de la entrega completa de la semana con el diseño de problema de estudiantes, ejercicios de las diapositivas de clase, el diagrama de flujo y problema de estudiantes titulado Diseño problema estudiantes v2.
+- 3. Se creo la carpeta para empezar con las respectivas actividades de la semana planteadas en clase e incorporando el diseño de dividir y conquistar en el diseño de problema de estudiantes propuesto y se planteo como empezar a esquematizar el diagrama de flujo respecto al algoritmo de los estudiantes.
+    - Se añadio el archivo de "Ejercicio 1 diapositiva.py" hecho en clase y se realizo el analisis del diseño de estudiantes dejando para nuevas actualizaciones los dejas ejercicios y pendiente la tabla costo tiempo del algoritmo de diseño de estudiantes v3 y se actualizo el readme de manera mas completa.
 - ... 
+
+---
+
+## 📂 Estructura del repositorio
+
+### Anexos
+- Contenido:
+    - Imagen Banner
+
+### Semana 1
+- Contenido:
+    - Ejercicios laboratorio
+    - Diseño problema estudiantes v1
+    - Analisis de soluciones
+
+### Semana 2
+- Contenido:
+    - Ejercicios laboratorio
+    - Diagrama de flujo
+    - Diseño problema estudiantes v2
+    - Graficas complejidad
+
+### Semana 3 (Proceso)
+- Contenido:
+    - Diseño problema estudiantes v3
+    - Ejercicios laboratorio (Proceso)
+    - Graficas (Proceso)
 
 ---
 
