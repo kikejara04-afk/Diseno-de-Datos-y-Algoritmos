@@ -20,6 +20,8 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
 - Se añadio la rama de semana_2, añadiendo asi la primera parte de la entrega completa de la semana con el diseño de problema de estudiantes, ejercicios de las diapositivas de clase, el diagrama de flujo y problema de estudiantes titulado Diseño problema estudiantes v2.
 - Se creo la carpeta para empezar con las respectivas actividades de la semana planteadas en clase e incorporando el diseño de dividir y conquistar en el diseño de problema de estudiantes propuesto y se planteo como empezar a esquematizar el diagrama de flujo respecto al algoritmo de los estudiantes.
     -  Se añadio el archivo de "Ejercicio 1 diapositiva.py" hecho en clase y se realizo el analisis del diseño de estudiantes dejando para nuevas actualizaciones los dejas ejercicios y pendiente la tabla costo tiempo del algoritmo de diseño de estudiantes v3 y se actualizo el readme de manera mas completa.
+    - Se añadio completamente el ejercicio de diseño de problema de estudiantes con sus respectivas graficas tanto de mejor/ peor caso, los diagramas de flujo, secuencia, caso de uso. Actualizando tambien el analisis y completando el analisis correspondiente de complejidad bajo el codigo de **diseño de estudiantes v3**.
+    De igual forma se organizo la semana 3, separando los archivos del diseño de estudiantes y los ejercicios para manener un orden mas optimo y profecional. Dejando pendiente los ejercicios 2 y 3 de las diapositivas.
 - ... 
 
 ---

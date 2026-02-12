@@ -153,6 +153,8 @@ Complejidad de tiempo:
   Justificación: La operación dominante es el algoritmo de divide y conquista
   que se ejecuta en O(n log n)
 
+- Las graficas se encuentran en una imagen anexa al proyecto llamada "Graficas mejor peor caso.png" y muestran que independientemente al caso, siempre habra la misma tendencia de tiempo y complejidad por
+el algoritmo de dividir y conquistar, que aunque puede parecer que tendra momentos optimos, mantendra el mismo flujo de tiempo para ejecutar la tarea dejando que son iguales.
 
 ANÁLISIS PROPIO:
 
