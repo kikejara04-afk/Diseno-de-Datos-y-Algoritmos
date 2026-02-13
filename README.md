@@ -22,6 +22,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     -  Se añadio el archivo de **"Ejercicio 1 diapositiva.py"** hecho en clase y se realizo el analisis del diseño de estudiantes dejando para nuevas actualizaciones los dejas ejercicios y pendiente la tabla costo tiempo del algoritmo de diseño de estudiantes v3 y se actualizo el readme de manera mas completa.
     - Se añadio completamente el ejercicio de diseño de problema de estudiantes con sus respectivas graficas tanto de mejor/ peor caso, los diagramas de flujo, secuencia, caso de uso. Actualizando tambien el analisis y completando el analisis correspondiente de complejidad bajo el codigo de **"diseño de estudiantes v3"**.
     De igual forma se organizo la semana 3, separando los archivos del diseño de estudiantes y los ejercicios para manener un orden mas optimo y profecional. Tambien organizando las demas semanas con el nuevo orden. Dejando pendiente los ejercicios 2 y 3 de las diapositivas.
+    - Se completo adecuadamente los ejercicios de las diapositivas, asi entendiendo un poco mas a profundidad el funcionamiento del **"dividir y conquistar"** y el algoritmo de **"mergesort"** o la **"suma de bits"** aunque esta se complica aun mas con su logica.
 - ... 
 
 ---
@@ -60,8 +61,10 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     
     - 📂 **Ejercicios laboratorio:**
         - Ejercicio 1 diapositiva
-        - Ejercicio 2 diapositiva(Proceso...)
-        - Ejercicio 3 diapositiva(Proceso...)
+        - Ejercicio 2 diapositiva
+        - Ejercicio 3 diapositiva
+        - Ejercicio 4 diapositiva
+        - Ejercicio 5 diapositiva
 
 ---
 
