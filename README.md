@@ -23,6 +23,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se añadio completamente el ejercicio de diseño de problema de estudiantes con sus respectivas graficas tanto de mejor/ peor caso, los diagramas de flujo, secuencia, caso de uso. Actualizando tambien el analisis y completando el analisis correspondiente de complejidad bajo el codigo de **"diseño de estudiantes v3"**.
     De igual forma se organizo la semana 3, separando los archivos del diseño de estudiantes y los ejercicios para manener un orden mas optimo y profecional. Tambien organizando las demas semanas con el nuevo orden. Dejando pendiente los ejercicios 2 y 3 de las diapositivas.
     - Se completo adecuadamente los ejercicios de las diapositivas, asi entendiendo un poco mas a profundidad el funcionamiento del **"dividir y conquistar"** y el algoritmo de **"mergesort"** o la **"suma de bits"** aunque esta se complica aun mas con su logica.
+- Se añadio la carpeta de **Semana 4**  en conjunto del laboratorio visto durante la clase, adecuando todo lo realizado y dejandolo organizado para la comodidad de la visualizacion de estos. Asi con las 2 carpetas de **Laboratorio** y **Diseño estudiantes v4**.preparando asi los espacios para completar el trabajo de la semana incorporando la programacion dinamica en el codigo de estudiantes. Tambien se dio una actualización al **README**.
 - ... 
 
 ---
@@ -50,7 +51,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Diseño problema estudiantes v2
         - Graficas complejidad
 
-### Semana 3 (Proceso)
+### Semana 3
 - Contenido:
     - 📂 **Diseño problema estudiantes v3:**
         - Diagrama de flujo
@@ -65,6 +66,18 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Ejercicio 3 diapositiva
         - Ejercicio 4 diapositiva
         - Ejercicio 5 diapositiva
+### Semana 4
+- Contenido:
+    - 📂 **Diseño problema estudiantes v4:**
+        - Diagramas de flujo, caso de uso y secuencia
+        - Diseño estudiantes v4 (Programación dinamica)
+        - Analisis, Graficas mejor/ peor caso
+        - Video explicativo (pendiente)
+    
+    - 📂 **Ejercicios laboratorio:**
+        - Problema laboratoio
+        - Miembros del Trabajo
+        - Analisis laboratorio
 
 ---
 
