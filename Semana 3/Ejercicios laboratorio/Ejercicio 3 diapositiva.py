@@ -22,4 +22,4 @@ def main():                                          # Función principal para o
     final = exponenciacion_modular(base_num, exp_num, mod_num) # Llamada al algoritmo de divide y vencerás
     
     print(f"Resultado: {final}")                     # Mostramos el resultado final en la consola
-    main()                                           # Si es así, arrancamos el programa llamando a main
+main()                                           # Si es así, arrancamos el programa llamando a main
