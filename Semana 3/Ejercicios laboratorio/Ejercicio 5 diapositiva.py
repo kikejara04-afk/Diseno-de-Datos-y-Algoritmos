@@ -6,7 +6,7 @@ def contar_bits_totales(n):
     k = n.bit_length() - 1
     # Calculamos la potencia de 2 más grande (2^k) que es menor o igual a n.
     
-    bits_en_potencia_2 = k * (1 << (k - 1))
+    bits_en_potencia_2 = k * (1 << (k - 1)) if k > 0 else 0
     # Por propiedades binarias, el total de bits de 0 hasta (2^k - 1) es k * 2^(k-1).
     
     bits_del_primer_digito = n - (1 << k) + 1
