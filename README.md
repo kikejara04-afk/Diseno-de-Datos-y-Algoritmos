@@ -4,7 +4,7 @@
 
 Repositorio dedicado a los trabajos de **DDYA (Diseño de Datos y Algoritmos)** y aprendizaje de GitHub, programación y demas...
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 🧠 Descripcón
 En este repositorio se podran encontrar los diferentes trabajos realizados por medio de programación en conjunto
@@ -12,7 +12,7 @@ de un analisis de solucion respecto a cada uno de los procesos que los algoritmo
 oportunidad de comprender su funcionamiento al detalle explorando diferentes herramientas y habilidades
 que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## ⚡ Actualizaciones
 - Se personalizo el README, al igual que se creo la carpeta de **"Semana 1"** donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
@@ -24,9 +24,10 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     De igual forma se organizo la semana 3, separando los archivos del diseño de estudiantes y los ejercicios para manener un orden mas optimo y profecional. Tambien organizando las demas semanas con el nuevo orden. Dejando pendiente los ejercicios 2 y 3 de las diapositivas.
     - Se completo adecuadamente los ejercicios de las diapositivas, asi entendiendo un poco mas a profundidad el funcionamiento del **"dividir y conquistar"** y el algoritmo de **"mergesort"** o la **"suma de bits"** aunque esta se complica aun mas con su logica.
 - Se añadio la carpeta de **Semana 4**  en conjunto del laboratorio visto durante la clase, adecuando todo lo realizado y dejandolo organizado para la comodidad de la visualizacion de estos. Asi con las 2 carpetas de **Laboratorio** y **Diseño estudiantes v4**.preparando asi los espacios para completar el trabajo de la semana incorporando la programacion dinamica en el codigo de estudiantes. Tambien se dio una actualización al **README**.
+    - Se completo el trabajo con el respectivo video explicativo de la semana y actualizo el **README** con mejoras visuales (Badges de las herramientas, separadores de lineas mas desarrollados).
 - ... 
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 📂 Estructura del repositorio
 
@@ -72,21 +73,21 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Diagramas de flujo, caso de uso y secuencia
         - Diseño estudiantes v4 (Programación dinamica)
         - Analisis, Graficas mejor/ peor caso
-        - Video explicativo (pendiente)
+        - Video explicativo 
     
     - 📂 **Ejercicios laboratorio:**
         - Problema laboratoio
         - Miembros del Trabajo
         - Analisis laboratorio
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 🔧 Herramientas
-- Python
-- Visual Studio Code
-- GitHub y Git
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
----
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 👤 Autor
 Asp. Ingeniero en Sistemas - Enrique Jara Escobar
