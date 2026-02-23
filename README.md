@@ -73,7 +73,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Diagramas de flujo, caso de uso y secuencia
         - Diseño estudiantes v4 (Programación dinamica)
         - Analisis, Graficas mejor/ peor caso
-        - Video explicativo 
+        - Video explicativo (Teams del profesor)
     
     - 📂 **Ejercicios laboratorio:**
         - Problema laboratoio
