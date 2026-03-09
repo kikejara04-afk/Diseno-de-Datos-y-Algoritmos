@@ -25,6 +25,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se completo adecuadamente los ejercicios de las diapositivas, asi entendiendo un poco mas a profundidad el funcionamiento del **"dividir y conquistar"** y el algoritmo de **"mergesort"** o la **"suma de bits"** aunque esta se complica aun mas con su logica.
 - Se añadio la carpeta de **Semana 4**  en conjunto del laboratorio visto durante la clase, adecuando todo lo realizado y dejandolo organizado para la comodidad de la visualizacion de estos. Asi con las 2 carpetas de **Laboratorio** y **Diseño estudiantes v4**.preparando asi los espacios para completar el trabajo de la semana incorporando la programacion dinamica en el codigo de estudiantes. Tambien se dio una actualización al **README**.
     - Se completo el trabajo con el respectivo video explicativo de la semana y actualizo el **README** con mejoras visuales (Badges de las herramientas, separadores de lineas mas desarrollados).
+- Se añadio la carpeta de la **Semana 7** en esta las sub carpetas para los ejercicios en la nueva pagina mencionada **HackerRank** y se comenzo a diseñar el nuevo problema de pacientes con el diseño de los nuvos metodos para resolver este. Organizando adecuadamente donde estara adjuntado cara archivo de la semana.
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -79,7 +80,14 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Problema laboratoio
         - Miembros del Trabajo
         - Analisis laboratorio
-
+### Semana 7
+- Contenido:
+    - 📂 **Diseño problema pacientes:**
+        - Laboratorio (jupyter)
+        - Video explicativo (Teams del profesor)
+    
+    - 📂 **Ejercicios laboratorio:**
+        - Ejercicios HackerRank
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 🔧 Herramientas
