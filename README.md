@@ -33,7 +33,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se actializo y completo lo solicitado de la semana. Completando asi el nuevo problema de pacientes, donde el codigo quedo funcional junto a los test. las graficas, diagramas y demas quedo hehcho. Los ejercicios de **HackerRank** fueron completados y se adjuntaron los codigos funcionales a la carpeta respectiva para la prueba si se desea. El video respectivo para la semana sera enviado al profesor mediante TEAMS por temas de almacenamiento permitido en **GitHub**.
 
 - Se creo la carpeta de **Semana 8** y durante la clase de laboratorio se comenzo a realizar el ejercicio donde es necesario desarrollar un codigo de **BST** para el inventario de un centro tecnologico.
-    - Se comenzo con el **diseño de pacientes v2**
+    - Se comenzo con el **diseño de pacientes v2** con la implementacion de los arboles sin usar class, en lo que se mejora la comprension de objetos, por lo que se mantiene con prints para los arbole, se definio el problema, e inicio el codigo. Los diagramas y graficas quedan pendientes a futuras actualizaciones.
 
 - ... 
 

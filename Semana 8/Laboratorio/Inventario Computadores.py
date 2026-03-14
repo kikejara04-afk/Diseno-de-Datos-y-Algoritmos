@@ -3,7 +3,6 @@ Descripcion del problema:
 Una tienda de tecnología necesita organizar su inventario de computadores. 
 Cada computador tiene un código único que permite identificarlo. Uso de Arboles Binarios de 
 Búsqueda (BST) para almacenar y gestionar el inventario.
-'''
 
 # Este programa usa funciones y diccionarios (sin clases) para:
 # 1) Crear y mostrar un BST de productos.
@@ -11,7 +10,7 @@ Búsqueda (BST) para almacenar y gestionar el inventario.
 # 3) Mostrar recorridos (preorden, inorden, postorden).
 # 4) Analizar la forma del BST.
 # 5) Demostrar insercion AVL y rotaciones necesarias.
-
+'''
 
 def linea(titulo=""):
     ancho = 66
