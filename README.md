@@ -31,7 +31,10 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
 
 - Se añadio la carpeta de la **Semana 7** en esta las sub carpetas para los ejercicios en la nueva pagina mencionada **HackerRank** y se comenzo a diseñar el nuevo problema de pacientes con el diseño de los nuvos metodos para resolver este. Organizando adecuadamente donde estara adjuntado cara archivo de la semana.
     - Se actializo y completo lo solicitado de la semana. Completando asi el nuevo problema de pacientes, donde el codigo quedo funcional junto a los test. las graficas, diagramas y demas quedo hehcho. Los ejercicios de **HackerRank** fueron completados y se adjuntaron los codigos funcionales a la carpeta respectiva para la prueba si se desea. El video respectivo para la semana sera enviado al profesor mediante TEAMS por temas de almacenamiento permitido en **GitHub**.
-    
+
+- Se creo la carpeta de **Semana 8** y durante la clase de laboratorio se comenzo a realizar el ejercicio donde es necesario desarrollar un codigo de **BST** para el inventario de un centro tecnologico.
+    - Se comenzo con el **diseño de pacientes v2**
+
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -96,7 +99,14 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Codigo andXorOr
         - Codigo PoisonousPlants
         - Codigo Queue
-
+### Semana 8
+- Contenido:
+    - 📂 **Diseño problema estudiantes v4:**
+        - Diseño pacientes v2 (Programación dinamica) (pendiente)
+        - Video explicativo (Teams del profesor) (pendiente)
+    
+    - 📂 **Ejercicios laboratorio:**
+        - Problema laboratoio
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## 🔧 Herramientas
