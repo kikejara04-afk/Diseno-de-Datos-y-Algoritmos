@@ -17,14 +17,21 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 ## ⚡ Actualizaciones
 - Se personalizo el README, al igual que se creo la carpeta de **"Semana 1"** donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
 mejorar el visual del README a medida de las actualizaciones para manejar un mejor diseño de tal y se invito de colaborador al instructor al repositorio.
+
 - Se añadio la rama de semana_2, añadiendo asi la primera parte de la entrega completa de la semana con el diseño de problema de estudiantes, ejercicios de las diapositivas de clase, el diagrama de flujo y problema de estudiantes titulado Diseño problema estudiantes v2.
+
 - Se creo la carpeta para empezar con las respectivas actividades de la semana planteadas en clase e incorporando el diseño de dividir y conquistar en el diseño de problema de estudiantes propuesto y se planteo como empezar a esquematizar el diagrama de flujo respecto al algoritmo de los estudiantes.
     -  Se añadio el archivo de **"Ejercicio 1 diapositiva.py"** hecho en clase y se realizo el analisis del diseño de estudiantes dejando para nuevas actualizaciones los dejas ejercicios y pendiente la tabla costo tiempo del algoritmo de diseño de estudiantes v3 y se actualizo el readme de manera mas completa.
     - Se añadio completamente el ejercicio de diseño de problema de estudiantes con sus respectivas graficas tanto de mejor/ peor caso, los diagramas de flujo, secuencia, caso de uso. Actualizando tambien el analisis y completando el analisis correspondiente de complejidad bajo el codigo de **"diseño de estudiantes v3"**.
     De igual forma se organizo la semana 3, separando los archivos del diseño de estudiantes y los ejercicios para manener un orden mas optimo y profecional. Tambien organizando las demas semanas con el nuevo orden. Dejando pendiente los ejercicios 2 y 3 de las diapositivas.
     - Se completo adecuadamente los ejercicios de las diapositivas, asi entendiendo un poco mas a profundidad el funcionamiento del **"dividir y conquistar"** y el algoritmo de **"mergesort"** o la **"suma de bits"** aunque esta se complica aun mas con su logica.
+
 - Se añadio la carpeta de **Semana 4**  en conjunto del laboratorio visto durante la clase, adecuando todo lo realizado y dejandolo organizado para la comodidad de la visualizacion de estos. Asi con las 2 carpetas de **Laboratorio** y **Diseño estudiantes v4**.preparando asi los espacios para completar el trabajo de la semana incorporando la programacion dinamica en el codigo de estudiantes. Tambien se dio una actualización al **README**.
     - Se completo el trabajo con el respectivo video explicativo de la semana y actualizo el **README** con mejoras visuales (Badges de las herramientas, separadores de lineas mas desarrollados).
+
+- Se añadio la carpeta de la **Semana 7** en esta las sub carpetas para los ejercicios en la nueva pagina mencionada **HackerRank** y se comenzo a diseñar el nuevo problema de pacientes con el diseño de los nuvos metodos para resolver este. Organizando adecuadamente donde estara adjuntado cara archivo de la semana.
+    - Se actializo y completo lo solicitado de la semana. Completando asi el nuevo problema de pacientes, donde el codigo quedo funcional junto a los test. las graficas, diagramas y demas quedo hehcho. Los ejercicios de **HackerRank** fueron completados y se adjuntaron los codigos funcionales a la carpeta respectiva para la prueba si se desea. El video respectivo para la semana sera enviado al profesor mediante TEAMS por temas de almacenamiento permitido en **GitHub**.
+    
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -79,6 +86,16 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Problema laboratoio
         - Miembros del Trabajo
         - Analisis laboratorio
+### Semana 7
+- Contenido:
+    - 📂 **Diseño problema pacientes:**
+        - Laboratorio (jupyter)
+        - Video explicativo (Teams del profesor)
+    
+    - 📂 **Ejercicios HackerRank:**
+        - Codigo andXorOr
+        - Codigo PoisonousPlants
+        - Codigo Queue
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
