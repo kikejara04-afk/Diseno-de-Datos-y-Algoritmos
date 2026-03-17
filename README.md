@@ -1,12 +1,12 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/kikejara04-afk/Kike/blob/9633feb600a663a163a6994731b6544af72169e5/Profile%20Banner.jpg" />
 
-# 📌 **Diseño de Datos y Algoritmos**
+#   **Diseño de Datos y Algoritmos**
 
 Repositorio dedicado a los trabajos de **DDYA (Diseño de Datos y Algoritmos)** y aprendizaje de GitHub, programación y demas...
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
-## 🧠 Descripcón
+## **🧠 Descripcón**
 En este repositorio se podran encontrar los diferentes trabajos realizados por medio de programación en conjunto
 de un analisis de solucion respecto a cada uno de los procesos que los algoritmos van a manejar. Dando asi la 
 oportunidad de comprender su funcionamiento al detalle explorando diferentes herramientas y habilidades
@@ -14,7 +14,7 @@ que se pueden adquirir y mejorar durante el proceso y desarrollo de estos.
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
-## ⚡ Actualizaciones
+## **⚡ Actualizaciones**
 - Se personalizo el README, al igual que se creo la carpeta de **"Semana 1"** donde se encuentran trabajos de la primera semana. De igual forma se añadio la carpeta llamada "Anexos" con las imagenes que se usaran a lo largo para
 mejorar el visual del README a medida de las actualizaciones para manejar un mejor diseño de tal y se invito de colaborador al instructor al repositorio.
 
@@ -33,13 +33,14 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se actializo y completo lo solicitado de la semana. Completando asi el nuevo problema de pacientes, donde el codigo quedo funcional junto a los test. las graficas, diagramas y demas quedo hehcho. Los ejercicios de **HackerRank** fueron completados y se adjuntaron los codigos funcionales a la carpeta respectiva para la prueba si se desea. El video respectivo para la semana sera enviado al profesor mediante TEAMS por temas de almacenamiento permitido en **GitHub**.
 
 - Se creo la carpeta de **Semana 8** y durante la clase de laboratorio se comenzo a realizar el ejercicio donde es necesario desarrollar un codigo de **BST** para el inventario de un centro tecnologico.
-    - Se comenzo con el **diseño de pacientes v2** con la implementacion de los arboles sin usar class, en lo que se mejora la comprension de objetos, por lo que se mantiene con prints para los arbole, se definio el problema, e inicio el codigo. Los diagramas y graficas quedan pendientes a futuras actualizaciones.
+    - Se comenzo con el **diseño de pacientes v2** con la implementacion de los arboles sin usar class, en lo que se mejora la comprension de objetos, por lo que se mantiene con prints para los arbole, se definio el problema, e inicio el codigo.
+    - Durante la semana se continuo con el proceso del desarrollo del trabajo, se añadieron los diagramas y las graficas de mejor/peor caso con el codigo y los test funcionales. Dejando el video explicativo para el final.
 
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
-## 📂 Estructura del repositorio
+## **📂 Estructura del repositorio**
 
 ### Anexos
 - Contenido:
@@ -101,20 +102,25 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Codigo Queue
 ### Semana 8
 - Contenido:
-    - 📂 **Diseño problema estudiantes v4:**
-        - Diseño pacientes v2 (Programación dinamica) (pendiente)
-        - Video explicativo (Teams del profesor) (pendiente)
+    - 📂 **Diseño problema pacientes v2:**
+        - 📂 Anexos:
+            - Diagrama de flujo
+            - Diagrama de secuencia
+            - Diagrama de caso de uso
+            - Graficas mejor/peor caso
+        - Diseño pacientes v2 (Arboles)
+        - Video explicativo (Teams del profesor)
     
     - 📂 **Ejercicios laboratorio:**
         - Problema laboratoio
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
-## 🔧 Herramientas
+## **🔧 Herramientas**
 - ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 - ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)  ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
-## 👤 Autor
-Asp. Ingeniero en Sistemas - Enrique Jara Escobar
+## **👤 Autor**
+**Asp. System Engineer - Enrique Jara Escobar**

@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "ms-toolsai.jupyter-keymap",
+        "pkief.material-icon-theme",
+        "brandonkirbyson.vscode-animations",
+        "github.vscode-pull-request-github",
+        "kisstkondoros.vscode-gutter-preview",
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "github.copilot-chat",
+        "ms-python.vscode-python-envs",
+        "donjayamanne.python-extension-pack"
+    ]
+}
