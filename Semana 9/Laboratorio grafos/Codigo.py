@@ -376,6 +376,40 @@ class AnalizadorIA:
             f"   y justifica tu elección.\n"
         )
 
+    def _limpiar_thinking(self, texto):
+        """Elimina bloques <think>…</think> y devuelve lo que queda después de ellos."""
+        limpio = re.sub(r'<think>.*?</think>', '', texto, flags=re.DOTALL).strip()
+        return limpio  # puede ser "" si todo estaba dentro del bloque
+
+    def _extraer_contenido(self, mensaje):
+        """Extrae el texto útil del mensaje de respuesta manejando tres variantes
+        que produce Qwen3 / DeepSeek-R1 según la versión de LM Studio:
+
+        1. content = "<think>…</think>\\n1. Respuesta real…"  → normal, limpiar tags
+        2. content = ""  y  reasoning_content = "1. Respuesta real…" → server separó campos
+        3. content = "<think>1. Respuesta dentro del bloque</think>" → todo en el tag
+        """
+        content   = mensaje.get("content",           "").strip()
+        reasoning = mensaje.get("reasoning_content", "").strip()
+
+        # Caso 1 – content tiene algo útil fuera del tag <think>
+        limpio = self._limpiar_thinking(content)
+        if limpio:
+            return limpio
+
+        # Caso 2 – la respuesta llegó en reasoning_content
+        limpio_r = self._limpiar_thinking(reasoning)
+        if limpio_r:
+            return limpio_r
+        if reasoning:
+            return reasoning
+
+        # Caso 3 – la respuesta está DENTRO del bloque <think> (fallback extremo)
+        if content:
+            return content
+
+        return ""
+
     def _separar_secciones(self, contenido):
         """Divide la respuesta en secciones numeradas; fallback a párrafos."""
         secciones = re.split(r'(?m)(?=^[1-9]\d*[\.)\s])', contenido.strip())
@@ -402,7 +436,9 @@ class AnalizadorIA:
     def _mostrar_analisis(self, contenido):
         """Muestra el análisis sección por sección con pausas interactivas."""
         secciones = self._separar_secciones(contenido)
-        total     = len(secciones)
+        if not secciones:
+            secciones = [contenido]  # fallback: mostrar todo como un bloque único
+        total = len(secciones)
 
         print()
         print("═" * (self.ANCHO + 4))
@@ -466,7 +502,12 @@ class AnalizadorIA:
         try:
             respuesta = requests.post(self.URL, json=payload, timeout=180)
             respuesta.raise_for_status()
-            contenido = respuesta.json()["choices"][0]["message"]["content"].strip()
+            mensaje   = respuesta.json()["choices"][0]["message"]
+            contenido = self._extraer_contenido(mensaje)
+            if not contenido:
+                print("  ✗ La respuesta del modelo llegó vacía. "
+                      "Intente de nuevo o revise la configuración del modelo.\n")
+                return
             self._mostrar_analisis(contenido)
         except requests.exceptions.ConnectionError:
             print("  ✗ No se pudo conectar a LM Studio.")
