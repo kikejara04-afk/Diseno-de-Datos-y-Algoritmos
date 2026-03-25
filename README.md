@@ -121,12 +121,13 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Diseño computadores
 ### Semana 9
 - Contenido:
-    - 📂 **Laboratorio:**
+    - 📂 **Laboratorio Grafos:**
         - 📂 Anexos:
             - Diagrama de flujo
             - Diagrama de secuencia
             - Diagrama de caso de uso
             - Graficas mejor/peor caso
+        - Codigo con **LmStudio**
         - Diseño Grafos
         - Video explicativo (Teams del profesor) (pendiente)
 

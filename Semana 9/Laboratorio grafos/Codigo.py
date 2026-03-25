@@ -1,5 +1,8 @@
 from collections import deque
 import sys
+import re
+import textwrap
+import requests
 
 # ─────────────────────────────────────────────────────────
 # ACTIVIDAD 1 – Construcción del grafo
@@ -321,6 +324,168 @@ def interpretacion_aplicada():
 
 
 # ─────────────────────────────────────────────────────────
+# IA – Análisis con LM Studio (Qwen)
+# ─────────────────────────────────────────────────────────
+
+class AnalizadorIA:
+    """Encapsula la comunicación con LM Studio para analizar BFS y DFS."""
+
+    URL    = "http://localhost:1234/v1/chat/completions"
+    MODELO = "qwen/qwen3.5-9b"
+    ANCHO  = 68
+    SISTEMA = (
+        "Eres un experto en algoritmos de grafos y estructuras de datos. "
+        "Responde siempre en español, de forma clara y educativa, "
+        "con ejemplos concretos basados en el grafo proporcionado. "
+        "Numera cada punto de tu respuesta con '1.' '2.' '3.' '4.' "
+        "y usa un párrafo claramente separado para cada uno."
+    )
+
+    # ── Helpers privados ────────────────────────────────────
+
+    def _descripcion_grafo(self, grafo):
+        """Genera descripción textual compacta del grafo."""
+        vertices = sorted(grafo.keys())
+        aristas, vistas = [], set()
+        for u in vertices:
+            for v in sorted(grafo[u]):
+                par = tuple(sorted([u, v]))
+                if par not in vistas:
+                    vistas.add(par)
+                    aristas.append(f"{u}–{v}")
+        return (
+            f"Vértices ({len(vertices)}): {', '.join(vertices)}\n"
+            f"Aristas  ({len(aristas)}):  {', '.join(aristas)}"
+        )
+
+    def _construir_prompt(self, grafo, nodo_inicio, orden_bfs, orden_dfs):
+        """Arma el prompt con la estructura del grafo y los recorridos."""
+        desc = self._descripcion_grafo(grafo)
+        return (
+            f"Tengo un grafo no dirigido con la siguiente estructura:\n"
+            f"{desc}\n\n"
+            f"Desde el nodo '{nodo_inicio}' se ejecutaron dos recorridos:\n"
+            f"  • BFS (Búsqueda por Anchura):    {orden_bfs}\n"
+            f"  • DFS (Búsqueda por Profundidad): {orden_dfs}\n\n"
+            f"Responde en español numerando cada punto con '1.' '2.' etc.:\n"
+            f"1. Explica por qué BFS y DFS generan ese orden específico en este grafo.\n"
+            f"2. Compara ambos recorridos: diferencias clave en comportamiento y estructura.\n"
+            f"3. Indica en qué situaciones prácticas conviene BFS y en cuáles DFS,\n"
+            f"   usando este grafo de distribución de bodegas como contexto.\n"
+            f"4. Concluye qué algoritmo recomendarías para optimizar rutas de entrega\n"
+            f"   y justifica tu elección.\n"
+        )
+
+    def _separar_secciones(self, contenido):
+        """Divide la respuesta en secciones numeradas; fallback a párrafos."""
+        secciones = re.split(r'(?m)(?=^[1-9]\d*[\.)\s])', contenido.strip())
+        secciones = [s.strip() for s in secciones if s.strip()]
+        if len(secciones) <= 1:
+            secciones = [
+                p.strip()
+                for p in re.split(r'\n{2,}', contenido.strip())
+                if p.strip()
+            ]
+        return secciones
+
+    def _imprimir_seccion(self, texto, idx, total):
+        """Imprime una sección con recuadro y texto ajustado al ancho."""
+        print(f"  ┌── Punto {idx} de {total} " + "─" * (self.ANCHO - 13))
+        for linea in texto.splitlines():
+            if linea.rstrip():
+                for parte in textwrap.wrap(linea.rstrip(), width=self.ANCHO):
+                    print(f"  │  {parte}")
+            else:
+                print("  │")
+        print(f"  └{'─' * (self.ANCHO + 3)}")
+
+    def _mostrar_analisis(self, contenido):
+        """Muestra el análisis sección por sección con pausas interactivas."""
+        secciones = self._separar_secciones(contenido)
+        total     = len(secciones)
+
+        print()
+        print("═" * (self.ANCHO + 4))
+        print("  ANÁLISIS IA  –  LM Studio / Qwen3.5-9B")
+        print(f"  Modelo : {self.MODELO}")
+        print("═" * (self.ANCHO + 4))
+        print()
+
+        i = 0
+        while i < total:
+            self._imprimir_seccion(secciones[i], i + 1, total)
+            print()
+            if i < total - 1:
+                try:
+                    continuar = input(
+                        f"  [ Enter → siguiente punto ({i + 2}/{total})  |  'q' → ver todo ] "
+                    ).strip().lower()
+                except (EOFError, KeyboardInterrupt):
+                    continuar = "q"
+                print()
+                if continuar == "q":
+                    for j in range(i + 1, total):
+                        self._imprimir_seccion(secciones[j], j + 1, total)
+                        print()
+                    break
+            i += 1
+
+        print("═" * (self.ANCHO + 4))
+        try:
+            input("  [ Presione Enter para regresar al menú ] ")
+        except (EOFError, KeyboardInterrupt):
+            pass
+        print()
+
+    # ── Método público ───────────────────────────────────────
+
+    def analizar(self, grafo, nodo_inicio, orden_bfs, orden_dfs):
+        """Consulta a Qwen en LM Studio y muestra el análisis interactivo."""
+        print()
+        print("─" * 45)
+        print("  Consultando a Qwen en LM Studio, espere...")
+        print("─" * 45)
+        print()
+
+        payload = {
+            "model": self.MODELO,
+            "messages": [
+                {"role": "system", "content": self.SISTEMA},
+                {
+                    "role": "user",
+                    "content": self._construir_prompt(
+                        grafo, nodo_inicio, orden_bfs, orden_dfs
+                    ),
+                },
+            ],
+            "temperature": 0.7,
+            "max_tokens": 1200,
+            "stream": False,
+        }
+
+        try:
+            respuesta = requests.post(self.URL, json=payload, timeout=180)
+            respuesta.raise_for_status()
+            contenido = respuesta.json()["choices"][0]["message"]["content"].strip()
+            self._mostrar_analisis(contenido)
+        except requests.exceptions.ConnectionError:
+            print("  ✗ No se pudo conectar a LM Studio.")
+            print(f"    Verifique que el servidor esté activo en: {self.URL}\n")
+        except requests.exceptions.Timeout:
+            print("  ✗ La solicitud tardó demasiado (>180 s). Intente de nuevo.\n")
+        except requests.exceptions.HTTPError as e:
+            print(f"  ✗ Error HTTP {e.response.status_code}: {e}\n")
+        except (KeyError, IndexError, ValueError) as e:
+            print(f"  ✗ Respuesta inesperada del modelo: {e}\n")
+        except Exception as e:
+            print(f"  ✗ Error al llamar a la IA: {e}\n")
+
+
+# Instancia global reutilizable
+_analizador_ia = AnalizadorIA()
+
+
+# ─────────────────────────────────────────────────────────
 # HELPERS
 # ─────────────────────────────────────────────────────────
 
@@ -437,6 +602,17 @@ def opcion_actividad4(grafo):
         orden_bfs = bfs(grafo, nodo)
         orden_dfs = dfs(grafo, nodo)
         comparar_recorridos(orden_bfs, orden_dfs)
+
+        # ── Análisis con IA ──────────────────────────────
+        try:
+            resp = input(
+                "  ¿Desea un análisis de la IA (LM Studio / Qwen3.5-9B)? (s/n) [Enter = s]: "
+            ).strip().lower()
+        except (EOFError, KeyboardInterrupt):
+            print()
+            return
+        if resp in ("", "s"):
+            _analizador_ia.analizar(grafo, nodo, orden_bfs, orden_dfs)
 
 def opcion_actividad5(grafo):
     print("─" * 45)
@@ -614,7 +790,7 @@ def mostrar_menu():
     print("  1. Actividad 1 – Ver grafo (visual / lista / matriz)")
     print("  2. Actividad 2 – BFS")
     print("  3. Actividad 3 – DFS")
-    print("  4. Actividad 4 – Comparar BFS y DFS")
+    print("  4. Actividad 4 – Comparar BFS y DFS  [+ Análisis IA]")
     print("  5. Actividad 5 – Agregar nuevo nodo")
     print("  6. Actividad 6 – Interpretación aplicada")
     print("  ─" * 22)
