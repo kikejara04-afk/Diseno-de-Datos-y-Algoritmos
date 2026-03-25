@@ -37,6 +37,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Durante la semana se continuo con el proceso del desarrollo del trabajo, se añadieron los diagramas y las graficas de mejor/peor caso con el codigo y los test funcionales. Dejando el video explicativo para el final.
 - Se creo la carpeta de la **Semana 9** donde se añadieron los temas y el diseño del trabajo de Grafos propuesto en clase. El trabajo se logro dejar completo de forma continua donde deja los diagramas, codigo, descripcion, graficas y el problema de laboratorio resuelto y funcional respecto al nuevo tema. Tambien se actualizo el readme y se implemento el nuevo metodo de organizacion para las carpetas y los codigos y hacer mas sencilla tanto la explicación, modificación y lectura del codigo para revisiones y correcciones.
     - Se completaron las arenas al igual que se termino de organizar las carpetas y lo faltante del diseño de grafos. Tambien se hizo el **Diseño  de Computadores** de la **Semana 8** con sus respectivos diagramas y grafica al igual que todos los requerimientos, historias y lo solicitado completo.
+    - Se logro implementar la IA de Qwen 3.5-9B para el analisis del codigo de la **Semana 9** y que de una respuesta a lo solicitado. (respuesta en ingles).
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
