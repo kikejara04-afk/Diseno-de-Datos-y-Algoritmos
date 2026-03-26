@@ -38,6 +38,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
 - Se creo la carpeta de la **Semana 9** donde se añadieron los temas y el diseño del trabajo de Grafos propuesto en clase. El trabajo se logro dejar completo de forma continua donde deja los diagramas, codigo, descripcion, graficas y el problema de laboratorio resuelto y funcional respecto al nuevo tema. Tambien se actualizo el readme y se implemento el nuevo metodo de organizacion para las carpetas y los codigos y hacer mas sencilla tanto la explicación, modificación y lectura del codigo para revisiones y correcciones.
     - Se completaron las arenas al igual que se termino de organizar las carpetas y lo faltante del diseño de grafos. Tambien se hizo el **Diseño  de Computadores** de la **Semana 8** con sus respectivos diagramas y grafica al igual que todos los requerimientos, historias y lo solicitado completo.
     - Se logro implementar la IA de Qwen 3.5-9B para el analisis del codigo de la **Semana 9** y que de una respuesta a lo solicitado. (respuesta en ingles).
+    - Se realizo el ensayo solicitado con los temas de la **Semana 7** a **Semana 9** donde se hizo la comparación, analisis, esquema de las templates o codigos por defecto para los respectivos temas, con explicación respecto a estos, graficas para cada una y tambien una para la comparación de versatilidad de los algoritmos al igual que funcionamiento.
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -131,7 +132,12 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Codigo con **LmStudio**
         - Diseño Grafos
         - Video explicativo (Teams del profesor) (pendiente)
-
+    - 📂 **Ensayo:**
+        - 📂 Anexos:
+            - Grafica semana 7
+            - Grafica semana 8
+            - Grafica semana 9
+        - Ensayo
     - 📂 **Arenas:**
         - Binary Search Tree : Lowest Common Ancestor
         - Is this a binary search
