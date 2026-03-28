@@ -131,13 +131,9 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
             - Graficas mejor/peor caso
         - Codigo con **LmStudio**
         - Diseño Grafos
-        - Video explicativo (Teams del profesor) (pendiente)
+        - Video explicativo (Teams del profesor) (Por Andres Poveda) 
     - 📂 **Ensayo:**
-        - 📂 Anexos:
-            - Grafica semana 7
-            - Grafica semana 8
-            - Grafica semana 9
-        - Ensayo
+        - Ensayo Semana 7-9
     - 📂 **Arenas:**
         - Binary Search Tree : Lowest Common Ancestor
         - Is this a binary search
