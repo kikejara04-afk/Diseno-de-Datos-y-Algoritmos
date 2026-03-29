@@ -385,7 +385,5 @@ def actividad_unica():
             print("Fin del programa.")
             break
 
-
-print("Programa simple de BST sin clases.")
 print("Puede ver el arbol antes y despues de agregar productos.")
 actividad_unica()

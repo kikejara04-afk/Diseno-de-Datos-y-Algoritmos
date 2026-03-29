@@ -10,6 +10,9 @@
         "ms-python.debugpy",
         "github.copilot-chat",
         "ms-python.vscode-python-envs",
-        "donjayamanne.python-extension-pack"
+        "donjayamanne.python-extension-pack",
+        "eamodio.gitlens",
+        "leon-pw.docx-reader",
+        "ms-toolsai.jupyter"
     ]
 }
