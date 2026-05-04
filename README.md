@@ -39,6 +39,8 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se completaron las arenas al igual que se termino de organizar las carpetas y lo faltante del diseño de grafos. Tambien se hizo el **Diseño  de Computadores** de la **Semana 8** con sus respectivos diagramas y grafica al igual que todos los requerimientos, historias y lo solicitado completo.
     - Se logro implementar la IA de Qwen 3.5-9B para el analisis del codigo de la **Semana 9** y que de una respuesta a lo solicitado. (respuesta en ingles).
     - Se realizo el ensayo solicitado con los temas de la **Semana 7** a **Semana 9** donde se hizo la comparación, analisis, esquema de las templates o codigos por defecto para los respectivos temas, con explicación respecto a estos, graficas para cada una y tambien una para la comparación de versatilidad de los algoritmos al igual que funcionamiento.
+- Se realizo la subida del archivo de montones binarios con lo solicitado y el video explicativo fue subido mediante el compañero Andres Poveda, la mayoria del laboratorio fue realizado en clase y finalizado durante la semana.
+- Se creo la carpeta **Semana 15** donde se realizo el laboratorio con una presentación respectiva del trabajo, esta contenia casi todo salvo el codigo el cual fue hecho en el **Diseño de Circuitos MST** para dejarlo como lo hemos utilizado a lo largo del semestre con la composición de los arboles.
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -138,6 +140,17 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Binary Search Tree : Lowest Common Ancestor
         - Is this a binary search
         - Tree: Height of a Binary Tree
+### Semana 12
+- Contenido:
+    - 📂 **Laboratorio Grafos:**
+        - Diseño Montones binarios
+### Semana 15
+- Contenido:
+    - 📂 **Laboratorio Grafos:**
+        - 📂 Anexos:
+            - Diagrama de flujo
+        - Diseño Circuitos MST
+        - Presentación Laboratorio
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 

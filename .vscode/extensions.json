@@ -13,6 +13,7 @@
         "donjayamanne.python-extension-pack",
         "eamodio.gitlens",
         "leon-pw.docx-reader",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "equinusocio.vsc-material-theme-icons"
     ]
 }
