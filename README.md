@@ -41,6 +41,7 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
     - Se realizo el ensayo solicitado con los temas de la **Semana 7** a **Semana 9** donde se hizo la comparación, analisis, esquema de las templates o codigos por defecto para los respectivos temas, con explicación respecto a estos, graficas para cada una y tambien una para la comparación de versatilidad de los algoritmos al igual que funcionamiento.
 - Se realizo la subida del archivo de montones binarios con lo solicitado y el video explicativo fue subido mediante el compañero Andres Poveda, la mayoria del laboratorio fue realizado en clase y finalizado durante la semana.
 - Se creo la carpeta **Semana 15** donde se realizo el laboratorio con una presentación respectiva del trabajo, esta contenia casi todo salvo el codigo el cual fue hecho en el **Diseño de Circuitos MST** para dejarlo como lo hemos utilizado a lo largo del semestre con la composición de los arboles.
+- Se creo la carpeta **Semana 16** en la cual se crearon 2 archivos, tanto el diseño como la presentación, respecto a los ejercicios de la semana 16 sobre relajación, rutas minímas y otros aspectos en nodos. Para esto se completo el diseño en conjunto de la presentación con el codigo funcional.
 - ... 
 
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
@@ -146,12 +147,21 @@ mejorar el visual del README a medida de las actualizaciones para manejar un mej
         - Diseño Montones binarios
 ### Semana 15
 - Contenido:
-    - 📂 **Laboratorio Grafos:**
+    - 📂 **Laboratorio MST:**
         - 📂 Anexos:
             - Diagrama de flujo
         - Diseño Circuitos MST
         - Presentación Laboratorio
-
+### Semana 16
+- Contenido:
+    - 📂 **Laboratorio relajación:**
+        - 📂 Anexos:
+            - Diagrama de flujo
+        - Diseño Rutas minímas
+        - Presentación DATAFORGE - Rutas Minimas
+### Semana 17
+- Contenido:
+    - 📂 **Laboratorio :**
 <img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&height=5&section=header&gradient=true&gradientColors=7e22ce,8b5cf6,06b6d4,22d3ee" alt="slice gradient separator" width="100%"/>
 
 ## **🔧 Herramientas**
